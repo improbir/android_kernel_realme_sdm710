@@ -21,16 +21,6 @@ config OPLUS_STANDARD_BATTERY_CHECK_ADC
 	help
 	  Say Y here to support Official Standard Battery check by ADC
 
-config OPLUS_SHORT_IC_CHECK
-	bool "OPLUS short ic"
-	help
-	  Say Y here to declare OPLUS batt short
-
-config OPLUS_SHORT_HW_CHECK
-	bool "OPLUS batt HW SHORT "
-	help
-	  Say Y here to declare charging system is on MTK
-
 config OPLUS_SHORT_USERSPACE
 	bool "OPLUS batt userspace"
 	help
